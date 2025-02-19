@@ -1,0 +1,93 @@
+.main-container{
+    width:600px ;
+    margin: auto;
+    margin-top: 1rem;
+    /* border:2px solid black; */
+
+}
+
+.box{
+    position: relative;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    border:1px solid black;
+    object-fit: cover;
+}
+
+.overlay{
+    border:1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    top:var(--top);
+    left:var(--left);
+
+}
+
+/* .box:hover{
+    opacity: .5;
+} */
+
+/* .image img{
+    object-fit: cover;
+    border:2px solid black;
+    /* width:600px;
+    height:700px; */
+   
+    /* background-image: url("./../images/bbcourt.jpg"); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+
+/* } */ 
+/* .img1:{
+    
+} */
+.tag-input{
+    position: absolute;
+    top:var(--top);
+    left:var(--left);
+    z-index: 2;
+    background-color: black;
+    border-radius: 5px;
+    color: rgb(253, 254, 255);
+    font-weight: 500;
+    opacity: .6;
+    padding: .3rem;
+    /* transform: rotate(20deg); */
+    /* background-color:red; */
+    /* position: absolute; */
+}
+
+.tag-container:focus{
+    outline: none;
+}
+.button{
+    margin-top: .5rem;
+    background-color: black;
+    color: azure;
+    padding: .5rem;
+    border-radius: 7px;
+    /* position: absolute; */
+    /* margin-bottom: 10rem; */
+    /* z-index: 5; */
+}
+.tag{
+    display: block;
+    background-color: aliceblue;
+    position: absolute;
+    top:var(--top);
+    left:var(--left);
+    pointer-events: none;
+}
+
+
+.hide-tag{
+    visibility: hidden;
+    background-color: aliceblue;
+    position: absolute;
+    top:var(--top);
+    left:var(--left);
+    pointer-events: none;
+}
